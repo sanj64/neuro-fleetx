@@ -1,0 +1,128 @@
+/* ---------------- ADMIN CONTAINER ---------------- */
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---------------- SIDEBAR ---------------- */
+.sidebar {
+  width: 220px;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
+.sidebar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar .menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar .menu li {
+  margin-bottom: 15px;
+}
+
+.sidebar .menu-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.sidebar .menu-link:hover,
+.sidebar .menu-link.active {
+  background-color: #1a252f;
+  font-weight: bold;
+}
+
+.sidebar .logout {
+  margin-top: 20px;
+  color: #ff4d4f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ---------------- MAIN CONTENT ---------------- */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+}
+
+/* ---------------- SETTINGS FORM ---------------- */
+.settings-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.settings-form .form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.settings-form input[type="text"],
+.settings-form input[type="email"],
+.settings-form select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.settings-form input:focus,
+.settings-form select:focus {
+  border-color: #007bff;
+}
+
+.btn-save {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-save:hover {
+  background-color: #0056b3;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 900px) {
+  .admin-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .settings-form {
+    width: 100%;
+  }
+}

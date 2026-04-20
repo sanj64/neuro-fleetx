@@ -1,0 +1,45 @@
+.vehicles-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.vehicles-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.vehicles-table th,
+.vehicles-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.vehicles-table th {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.vehicles-table tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+.vehicles-table tr:hover {
+  background-color: #e0f2fe;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.in-use {
+  color: orange;
+  font-weight: bold;
+}
+
+.maintenance {
+  color: red;
+  font-weight: bold;
+}

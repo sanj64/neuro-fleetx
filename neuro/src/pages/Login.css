@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Full screen background */
+.auth-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: flex-end;   /* 👉 RIGHT SIDE */
+  align-items: center;
+
+  padding-right: 80px;         /* spacing from right edge */
+
+  background-image: url("https://img.freepik.com/premium-photo/futuristic-urban-traffic-management-with-digital-navigation-intelligent-transportation-system-aig62_31965-675030.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Login box */
+.login-box {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading */
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e293b;
+}
+
+/* Labels */
+.login-box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+/* Inputs */
+.login-box input,
+.login-box select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  outline: none;
+}
+
+.login-box input:focus,
+.login-box select:focus {
+  border-color: #3b82f6;
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #2563eb;
+}
+
+/* Footer */
+.footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.footer span {
+  color: #3b82f6;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .auth-page {
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .login-box {
+    margin: 20px;
+  }
+}

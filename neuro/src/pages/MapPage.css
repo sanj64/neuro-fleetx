@@ -1,0 +1,11 @@
+.map-page {
+  padding: 20px;
+}
+
+.map-page h2 {
+  margin-bottom: 20px;
+}
+
+.leaflet-container {
+  border-radius: 8px;
+}

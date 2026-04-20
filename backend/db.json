@@ -1,0 +1,89 @@
+{
+  "alerts": [
+    {
+      "id": "1",
+      "vehicle": "TS09AB1234",
+      "issue": "Engine Overheating",
+      "severity": "CRITICAL",
+      "action": "Immediate servicing"
+    },
+    {
+      "id": "2",
+      "vehicle": "TS08CD5678",
+      "issue": "Fuel Low (15%)",
+      "severity": "WARNING",
+      "action": "Refuel soon"
+    },
+    {
+      "id": "3",
+      "vehicle": "TS10EF3456",
+      "issue": "Battery Health Low",
+      "severity": "CRITICAL",
+      "action": "Replace battery"
+    },
+    {
+      "id": "4",
+      "vehicle": "TS11GH7890",
+      "issue": "Tire Pressure Low",
+      "severity": "WARNING",
+      "action": "Check tires"
+    },
+    {
+      "id": "5",
+      "vehicle": "TS07JK4567",
+      "issue": "Oil Level Low",
+      "severity": "WARNING",
+      "action": "Refill oil"
+    },
+    {
+      "id": "6",
+      "vehicle": "TS12LM2345",
+      "issue": "Brake Pad Wear",
+      "severity": "CRITICAL",
+      "action": "Brake inspection required"
+    },
+    {
+      "id": "7",
+      "vehicle": "TS13NO6789",
+      "issue": "Coolant Level Low",
+      "severity": "WARNING",
+      "action": "Refill coolant"
+    },
+    {
+      "id": "8",
+      "vehicle": "TS14PQ1122",
+      "issue": "Engine Sensor Fault",
+      "severity": "CRITICAL",
+      "action": "Diagnostic check required"
+    },
+    {
+      "id": "9",
+      "vehicle": "TS15RS3344",
+      "issue": "High Engine Temperature",
+      "severity": "CRITICAL",
+      "action": "Stop vehicle and inspect"
+    },
+    {
+      "id": "10",
+      "vehicle": "TS16TU5566",
+      "issue": "Fuel Level Critical (8%)",
+      "severity": "WARNING",
+      "action": "Refuel immediately"
+    },
+    {
+      "id": "11",
+      "vehicle": "TS16TU5567",
+      "issue": "No issue",
+      "severity": "NORMAL",
+      "action": "Safe"
+    },
+    {
+      "id": 1773737276343,
+      "vehicle": "ts34",
+      "issue": "ins",
+      "severity": "SAFE",
+      "action": "safe"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

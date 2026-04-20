@@ -1,0 +1,94 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background: #f4f6f9;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: #1e293b;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar li {
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sidebar li:hover {
+  background: #334155;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* AI */
+.ai {
+  border: 2px solid green;
+}
+
+/* FILTER */
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* PROGRESS */
+.progress {
+  height: 6px;
+  background: #ddd;
+  margin: 10px 0;
+}
+
+.progress div {
+  height: 100%;
+  background: green;
+}
+
+/* SIDE PANEL */
+.side-panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background: white;
+  padding: 20px;
+}
+
+/* COLORS */
+.red {
+  color: red;
+}
+
+.yellow {
+  color: orange;
+}
+
+.cancel {
+  background: red;
+  color: white;
+}
